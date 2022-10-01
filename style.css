@@ -1,9 +1,11 @@
 /*
 Color Palette
-background color:  #3A3845
-font color:        #F7CCAC
-secondary color:   #C69B7B
-tertiary color:    #826F66
+background color:  #495C83
+font color:        #7A86B6
+secondary color:   #A8A4CE
+tertiary color:    #C8B6E2
+Colors From https://colorhunt.co 
+Palette is https://colorhunt.co/palette/495c837a86b6a8a4cec8b6e2
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
@@ -15,9 +17,26 @@ html {
 
 header {
     font-size: 2rem;
+    text-align: center;
+}
+
+body {
+    background-color: #495C83;
 }
 
 p {
     font-family: 'Noto Serif', serif;
     font-size: 1.6rem;
+    text-align: center;
+}
+
+.headerSpan {
+    width: auto;
+    padding: 1rem;
+    border: 1px solid #C8B6E2;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.socials {
+    padding: 3rem;
 }
