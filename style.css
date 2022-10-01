@@ -24,19 +24,51 @@ body {
     background-color: #495C83;
 }
 
-p {
-    font-family: 'Noto Serif', serif;
-    font-size: 1.6rem;
-    text-align: center;
-}
-
 .headerSpan {
     width: auto;
+    border-radius: 1rem;
     padding: 1rem;
     border: 1px solid #C8B6E2;
+    background-color: #C8B6E2;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .socials {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.6rem;
+    text-align: center;
     padding: 3rem;
+}
+
+.socialsText {
+    width: auto;
+    padding: 0.4rem;
+    border: 1px solid #C8B6E2;
+    border-radius: 10rem;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    background-color: #4158D0;
+    height: 50rem;
+    background: #C8B6E2;
+    width: 35%;
+    margin: auto;
+    padding: 5.5em;
+    padding-bottom: 10em;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+                        /* This part above comes from courtesy of luxors website source his discord 
+                        is luxor#0001 and his website is https://luxlmao.github.io/ */
+
+.wpfp {
+    border: 0.4rem solid #495C83;
+    border-radius: 10rem;
+}
+
+.discord {
+    font-size: 2rem;
 }
