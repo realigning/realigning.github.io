@@ -24,6 +24,17 @@ body {
     background-color: #495C83;
 }
 
+button {
+    width: auto;
+    background-color: #C8B6E2;
+    padding: 0.6rem;
+    border: 1px solid #C8B6E2;
+    border-radius: 10rem;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
+    margin: 0.4rem;
+    font-size: 1.6rem;
+}
+
 .headerSpan {
     width: auto;
     border-radius: 1rem;
@@ -38,14 +49,6 @@ body {
     font-size: 1.6rem;
     text-align: center;
     padding: 3rem;
-}
-
-.socialsText {
-    width: auto;
-    padding: 0.4rem;
-    border: 1px solid #C8B6E2;
-    border-radius: 10rem;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .container {
@@ -76,6 +79,6 @@ body {
 
 @media only screen and (max-width: 768px) {
     .container {
-      width: 100%;
+      width: 50%;
     }
 }
