@@ -73,7 +73,10 @@ iframe {
 }
 
 .wpfp {
-    max-width: 60%;
+    max-width: 45%;
+    border: 0.4rem solid #495C83;
+    border: 0.4rem solid #495C83;
+    border: 0.4rem solid #495C83;
     border-radius: 10rem;
 }
 
