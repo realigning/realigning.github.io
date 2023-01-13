@@ -38,6 +38,7 @@ button a {
 iframe {
     max-width: 95%;
     height: 500px;
+    padding-top: 5rem;
 }
 
 .headerSpan {
@@ -81,17 +82,14 @@ iframe {
     font-size: 1.2rem;
 }
 
-.discordWidget {
-    padding-top: 5rem;
-}
-
 @media (min-width: 800px) {
     button {
         font-size: 1.6rem;
     }
 
-    iframe {
+    .discordWidgetMobile {
         width: 70rem;
+        display: none;
     }
 
     .headerSpan{
@@ -103,5 +101,11 @@ iframe {
     }
     .discord {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .discordWidgetDesktop {
+        display: none;
     }
 }
