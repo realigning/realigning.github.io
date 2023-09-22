@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
 html {
-    font-size: 62.5%;
-    /* Default font size is 16px- 62.5% of 16 is 10px -
-                           1 rem (relative unit) now will be equivalent to 10px */
+    font-size:62.5%;    /* Default font size is 16px- 62.5% of 16 is 10px -
+                           1 rem (relative unit) now will be equivalent to 10px */ 
 }
 
 header {
@@ -24,13 +23,11 @@ button {
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
     margin: 0.4rem;
     font-size: 1.2rem;
-    transition: transform .5s;
-    /* Makes Transition smooth */
+    transition: transform .5s; /* Makes Transition smooth */
 }
 
 button:hover {
-    transform: scale(1.2);
-    /* Image Pops Out when user hovers over image */
+    transform: scale(1.2); /* Image Pops Out when user hovers over image */
 }
 
 button a {
@@ -84,11 +81,7 @@ iframe {
     font-size: 1.2rem;
 }
 
-.discordWidgetMobile {
-    padding-top: 5rem;
-}
-
-.discordWidgetDesktop {
+.discordWidget {
     padding-top: 5rem;
 }
 
@@ -101,26 +94,14 @@ iframe {
         width: 70rem;
     }
 
-    .headerSpan {
+    .headerSpan{
         font-size: 3rem;
     }
 
     .container {
-        width: 45%;
+      width: 45%;
     }
-
     .discord {
         font-size: 2rem;
-    }
-    
-    .discordWidgetMobile {
-        display: none;
-    }
-
-}
-
-@media (max-width: 800px) {
-    .discordWidgetDesktop {
-        display: none;
     }
 }
