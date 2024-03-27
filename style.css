@@ -75,11 +75,6 @@ iframe {
     box-shadow: 4px 4px 4px 4px rgba(255, 0, 0, 0.6);
 }
 
-.wpfp {
-    max-width: 50%;
-    border-radius: 10rem;
-}
-
 .discord {
     font-size: 1.2rem;
 }
@@ -116,10 +111,20 @@ iframe {
     .discordWidgetMobile {
         display: none;
     }
+
+    .wpfp {
+        max-width: 50%;
+        border-radius: 10rem;
+    }
 }
 
 @media (max-width: 800px) {
     .discordWidgetDesktop {
         display: none;
+    }
+
+    .wpfp {
+        max-width: 50%;
+        border-radius: 5rem;
     }
 }
