@@ -84,7 +84,11 @@ iframe {
     font-size: 1.2rem;
 }
 
-.discordWidget {
+.discordWidgetDesktop {
+    padding-top: 5rem;
+}
+
+.discordWidgetMobile {
     padding-top: 5rem;
 }
 
@@ -107,5 +111,15 @@ iframe {
 
     .discord {
         font-size: 2rem;
+    }
+
+    .discordWidgetMobile {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .discordWidgetDesktop {
+        display: none;
     }
 }
