@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+html {
+    font-size: 62.5%;
+    /* Default font size is 16px- 62.5% of 16 is 10px -
+                           1 rem (relative unit) now will be equivalent to 10px */
+}
+
+header {
+    font-size: 2rem;
+    text-align: center;
+}
+
+body {
+    background-color: #000;
+}
+
+button {
+    width: auto;
+    background-color: #808080;
+    padding: 0.6rem;
+    border: 1px solid #808080;
+    border-radius: 10rem;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
+    margin: 0.4rem;
+    font-size: 1.2rem;
+    transition: transform .5s;
+    /* Makes Transition smooth */
+}
+
+button:hover {
+    transform: scale(1.2);
+    /* Image Pops Out when user hovers over image */
+}
+
+button a {
+    text-decoration: none;
+    color: #FF2D00;
+}
+
+iframe {
+    max-width: 95%;
+    height: 500px;
+}
+
+.headerSpan {
+    font-size: 2rem;
+    width: auto;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #FF2D00;
+    border: 1px solid #808080;
+    background-color: #808080;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.socials {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    height: auto;
+    background: #808080;
+    width: 70%;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 4px 4px rgba(255, 0, 0, 0.6);
+}
+
+.discord {
+    font-size: 1.2rem;
+}
+
+.discordWidgetDesktop {
+    padding-top: 5rem;
+}
+
+.discordWidgetMobile {
+    padding-top: 5rem;
+}
+
+@media (min-width: 800px) {
+    button {
+        font-size: 1.6rem;
+    }
+
+    iframe {
+        width: 70rem;
+    }
+
+    .headerSpan {
+        font-size: 3rem;
+    }
+
+    .container {
+        width: 45%;
+    }
+
+    .discord {
+        font-size: 2rem;
+    }
+
+    .discordWidgetMobile {
+        display: none;
+    }
+
+    .wpfp {
+        max-width: 50%;
+        border-radius: 10rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .discordWidgetDesktop {
+        display: none;
+    }
+
+    .wpfp {
+        max-width: 50%;
+        border-radius: 5rem;
+    }
+}
